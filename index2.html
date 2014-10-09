@@ -1,0 +1,113 @@
+<html>
+<head>
+	<title></title>
+	 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+	<script type="text/javascript" src="calculator2.js"></script>
+
+
+
+
+	<link rel=StyleSheet href="style.css" type="text/css">
+
+
+
+
+</head>
+
+
+
+
+<body>
+
+
+
+	<br>
+	<br>
+
+
+	<div id = "display" class="container" style="height:100px; font-size:6rem; text-align:right;">
+
+	</div>
+
+
+	<div class="container">
+		<div class="row">
+		  <div class="col-xs-3">
+		  	<input type = "button" class="btn btn-info" class="col-xs-3" value = "7" onclick="number(7)">
+		  </div>
+		  <div class="col-xs-3">
+		  	<input type = "button" class="btn btn-info" class="col-xs-3" value = "8" onclick="number(8)">
+		  </div>
+		  <div class="col-xs-3">
+		  	<input type = "button" class="btn btn-info" class="col-xs-3" value = "9" onclick="number(9)">
+		  </div>
+		  <div class="col-xs-3">
+		  	<input type = "button" class="btn btn-default" class="col-xs-3" value = "/" onclick="operator('/')">
+		  </div>
+		</div>
+
+
+		<div class="row">
+		  <div class="col-xs-3">
+		  	<input type = "button" class="btn btn-info" class="col-xs-3" value = "4" onclick="number(4)">
+		  </div>
+		  <div class="col-xs-3">
+		  	<input type = "button" class="btn btn-info" class="col-xs-3" value = "5" onclick="number(5)">
+		  </div>
+		  <div class="col-xs-3">
+		  	<input type = "button" class="btn btn-info" class="col-xs-3" value = "6" onclick="number(6)">
+		  </div>
+		  <div class="col-xs-3">
+		  	<input type = "button" class="btn btn-default" class="col-xs-3" value = "*" onclick="operator('*')">
+		  </div>
+		</div>
+
+
+		<div class="row">
+		  <div class="col-xs-3">
+		  	<input type = "button" class="btn btn-info" class="col-xs-3" value = "1" onclick="number(1)">
+		  </div>
+		  <div class="col-xs-3">
+		  	<input type = "button" class="btn btn-info" class="col-xs-3" value = "2" onclick="number(2)">
+		  </div>
+		  <div class="col-xs-3">
+		  	<input type = "button" class="btn btn-info" class="col-xs-3" value = "3" onclick="number(3)">
+		  </div>
+		  <div class="col-xs-3">
+		  	<input type = "button" class="btn btn-default" class="col-xs-3" value = "-" onclick="operator('-')">
+		  </div>
+		</div>
+
+
+		<div class="row">
+		  <div class="col-xs-3">
+		  	<input type = "button" class="btn btn-default" class="col-xs-3" value = "C" onclick="Clear()"/>
+		  </div>
+		  <div class="col-xs-3">
+		  	<input type = "button" class="btn btn-info" class="col-xs-3" value = "0" onclick="number(0)">
+		  </div>
+		  <div class="col-xs-3">
+		  	<input type = "button" class="btn btn-primary" class="col-xs-3" value = "=" onclick="equals()">
+		  </div>
+		  <div class="col-xs-3">
+		  	<input type = "button" class="btn btn-default" class="col-xs-3" value = "+" onclick="operator('+')">
+		  </div>
+		</div>
+
+
+	</div>
+
+
+</body>
+</html>

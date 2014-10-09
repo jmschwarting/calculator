@@ -1,0 +1,14 @@
+.container{
+	width:500px;
+	border:1px solid gray;
+}
+
+.btn{
+	width:100%;
+	padding:1rem;
+}
+
+.col-xs-3{
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
